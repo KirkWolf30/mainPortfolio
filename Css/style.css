@@ -1,0 +1,26 @@
+html, body {
+  background-color: #393939;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar {
+  background-color: #393939;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.navbar .nav-link:hover {
+  color: #FF5C00;
+}
+/*# sourceMappingURL=style.css.map */
