@@ -3,12 +3,26 @@ html, body {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif !important;
+  color: #FFFFFF;
+}
+
+.btn {
+  background-color: #FFFFFF;
+  font-weight: 600;
 }
 
 .navbar {
@@ -22,5 +36,29 @@ html, body {
 
 .navbar .nav-link:hover {
   color: #FF5C00;
+}
+
+.text {
+  color: #FF5C00;
+  text-decoration: none;
+  cursor: text;
+  font-weight: 500;
+}
+
+.text:hover {
+  color: #FF5C00;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container h2 {
+  font-weight: 300;
+}
+
+.container h1, .container .and {
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

@@ -9,11 +9,25 @@ html,body{
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $fontFamily !important;
+    color: $ten;
+}
+
+.btn{
+    background-color: $ten;
+    font-weight: 600;
 }
 
 .navbar{
@@ -28,3 +42,29 @@ html,body{
         color: $thirty ;
     }
 }
+
+.text{
+    color: $thirty;
+    text-decoration: none;
+    cursor: text;
+    font-weight: 500;
+}
+
+.text:hover{
+    color: $thirty;
+}
+
+   .container{
+       width: 100%;
+       overflow-x: hidden;
+       
+       h2{
+           font-weight: 300;
+       }
+
+       h1, .and{
+           font-weight: 600;
+       }
+
+
+   }
