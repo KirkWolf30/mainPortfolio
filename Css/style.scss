@@ -68,3 +68,32 @@ body::-webkit-scrollbar{
 
 
    }
+
+   .aboutFooter{
+       display: flex;
+       justify-content: end;
+   }
+
+
+   .About{
+      position: relative;
+
+      background-image: url(/Images/BackGround.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+
+   .circle{
+width: 300px;
+height: 300px;
+border-radius: 100%;
+background-image: url(/Images/profile.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1000;
+filter: grayscale(90%);
+
+   }
+   

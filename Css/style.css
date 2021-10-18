@@ -61,4 +61,34 @@ body::-webkit-scrollbar {
 .container h1, .container .and {
   font-weight: 600;
 }
+
+.aboutFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.About {
+  position: relative;
+  background-image: url(/Images/BackGround.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-image: url(/Images/profile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+}
 /*# sourceMappingURL=style.css.map */
