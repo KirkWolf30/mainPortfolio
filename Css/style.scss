@@ -7,6 +7,8 @@ $fontFamily: 'Montserrat', sans-serif;
 html,body{
     background-color: $Sixty;
     scroll-behavior: smooth;
+    color: $ten;
+
 }
 
 body::-webkit-scrollbar{
@@ -22,7 +24,12 @@ body::-webkit-scrollbar{
     padding: 0;
     box-sizing: border-box;
     font-family: $fontFamily !important;
-    color: $ten;
+}
+
+
+.light{
+    background-color: $ten;
+    color: $Sixty !important;
 }
 
 .tag{

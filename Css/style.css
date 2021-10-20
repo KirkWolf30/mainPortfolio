@@ -1,6 +1,7 @@
 html, body {
   background-color: #393939;
   scroll-behavior: smooth;
+  color: #FFFFFF;
 }
 
 body::-webkit-scrollbar {
@@ -17,7 +18,11 @@ body::-webkit-scrollbar {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif !important;
-  color: #FFFFFF;
+}
+
+.light {
+  background-color: #FFFFFF;
+  color: #393939 !important;
 }
 
 .tag {
