@@ -20,6 +20,14 @@ body::-webkit-scrollbar {
   color: #FFFFFF;
 }
 
+.tag {
+  font-weight: 100 !important;
+}
+
+.title {
+  font-weight: 300 !important;
+}
+
 .btn {
   background-color: #FFFFFF;
   font-weight: 600;
@@ -90,5 +98,10 @@ body::-webkit-scrollbar {
   z-index: 1000;
   -webkit-filter: grayscale(90%);
           filter: grayscale(90%);
+}
+
+.card {
+  background: none !important;
+  border: none !important;
 }
 /*# sourceMappingURL=style.css.map */
