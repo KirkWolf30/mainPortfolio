@@ -4,6 +4,15 @@ html, body {
   color: #FFFFFF;
 }
 
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -108,5 +117,69 @@ body::-webkit-scrollbar {
 .card {
   background: none !important;
   border: none !important;
+}
+
+.technologies {
+  background-image: url(/Images/bgRight.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.callCard {
+  background-color: #16161698;
+  background-image: url(/Images/ContactLogo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.callCard .callDetais {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.callCard .callLinks {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  background-image: url(/Images/bgLeft.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer .links {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .links a {
+  color: #FF5C00;
+}
+
+footer .links a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */

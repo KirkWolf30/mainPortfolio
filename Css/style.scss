@@ -10,6 +10,14 @@ html,body{
     color: $ten;
 
 }
+a{
+    color: $ten ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: $ten;
+}
 
 body::-webkit-scrollbar{
     display: none;
@@ -117,3 +125,56 @@ filter: grayscale(90%);
        border: none !important;
     
    }
+
+   .technologies{
+    background-image: url(/Images/bgRight.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; 
+   }
+
+
+
+   .callCard{
+       background-color: #16161698;
+       
+       background-image: url(/Images/ContactLogo.png);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       
+
+       .callDetais{
+        flex-direction: column;
+       }
+       
+       .callLinks{
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: center;
+       }
+
+   }
+
+   footer{
+    background-image: url(/Images/bgLeft.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .links{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+a{
+    color: $thirty ;
+}
+
+a:hover{
+    color: $ten ;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+    }
+}
