@@ -1,0 +1,180 @@
+$Sixty: #393939;
+$thirty: #FF5C00;
+$ten: #FFFFFF;
+
+$fontFamily: 'Montserrat', sans-serif;
+
+html,body{
+    background-color: $Sixty;
+    scroll-behavior: smooth;
+    color: $ten;
+
+}
+a{
+    color: $ten ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: $ten;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fontFamily !important;
+}
+
+
+.light{
+    background-color: $ten;
+    color: $Sixty !important;
+}
+
+.tag{
+    font-weight: 100 !important;
+}
+
+.title{
+    font-weight: 300 !important;
+}
+
+.btn{
+    background-color: $ten;
+    font-weight: 600;
+}
+
+.navbar{
+    background-color: $Sixty;
+
+    .nav-link{
+        font-size: 14px;
+        color: $ten ;
+    }
+
+    .nav-link:hover{
+        color: $thirty ;
+    }
+}
+
+.text{
+    color: $thirty;
+    text-decoration: none;
+    cursor: text;
+    font-weight: 500;
+}
+
+.text:hover{
+    color: $thirty;
+}
+
+   .container{
+       width: 100%;
+       overflow-x: hidden;
+       
+       h2{
+           font-weight: 300;
+       }
+
+       h1, .and{
+           font-weight: 600;
+       }
+
+
+   }
+
+   .aboutFooter{
+       display: flex;
+       justify-content: end;
+   }
+
+
+   .About{
+      position: relative;
+
+      background-image: url(/Images/BackGround.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+
+   .circle{
+width: 300px;
+height: 300px;
+border-radius: 100%;
+background-image: url(/Images/profile.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1000;
+filter: grayscale(90%);
+
+   }
+   
+   .card{
+       background: none !important;
+       border: none !important;
+    
+   }
+
+   .technologies{
+    background-image: url(/Images/bgRight.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; 
+   }
+
+
+
+   .callCard{
+       background-color: #16161698;
+       
+       background-image: url(/Images/ContactLogo.png);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       
+
+       .callDetais{
+        flex-direction: column;
+       }
+       
+       .callLinks{
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: center;
+       }
+
+   }
+
+   footer{
+    background-image: url(/Images/bgLeft.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .links{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+a{
+    color: $thirty ;
+}
+
+a:hover{
+    color: $ten ;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+    }
+}

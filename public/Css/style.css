@@ -1,0 +1,185 @@
+html, body {
+  background-color: #393939;
+  scroll-behavior: smooth;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.light {
+  background-color: #FFFFFF;
+  color: #393939 !important;
+}
+
+.tag {
+  font-weight: 100 !important;
+}
+
+.title {
+  font-weight: 300 !important;
+}
+
+.btn {
+  background-color: #FFFFFF;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: #393939;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.navbar .nav-link:hover {
+  color: #FF5C00;
+}
+
+.text {
+  color: #FF5C00;
+  text-decoration: none;
+  cursor: text;
+  font-weight: 500;
+}
+
+.text:hover {
+  color: #FF5C00;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container h2 {
+  font-weight: 300;
+}
+
+.container h1, .container .and {
+  font-weight: 600;
+}
+
+.aboutFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.About {
+  position: relative;
+  background-image: url(/Images/BackGround.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-image: url(/Images/profile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+}
+
+.card {
+  background: none !important;
+  border: none !important;
+}
+
+.technologies {
+  background-image: url(/Images/bgRight.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.callCard {
+  background-color: #16161698;
+  background-image: url(/Images/ContactLogo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.callCard .callDetais {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.callCard .callLinks {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  background-image: url(/Images/bgLeft.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer .links {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .links a {
+  color: #FF5C00;
+}
+
+footer .links a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
